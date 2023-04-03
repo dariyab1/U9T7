@@ -14,5 +14,6 @@ public class ThreeDPoint extends Point{
         }
         ThreeDPoint temp=(ThreeDPoint)obj;
         return super.equals(obj)&&this.z==temp.z;
+
     }
 }
